@@ -1,0 +1,9 @@
+<div class="col-lg-2 col-xs-6" *ngFor="let product of productos">
+    <div class="panel panel-filled">
+        <div class="panel-body">
+            <h4 class="m-b-none text-center">{{ product.descripcion }}</h4><hr>
+            <div class="small">Precio: $ {{ product.precio }}</div>
+            <div class="slight m-t-sm">Codigo: <span class="c-white">{{ product.codigo }}</span>  </div>
+        </div>
+    </div>
+</div>
